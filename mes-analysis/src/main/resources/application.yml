@@ -1,0 +1,27 @@
+#开放端口
+server:
+  port: 10010
+
+#mysql数据库
+datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/coregister?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+  username: debian-sys-maint
+  password: '!Mouth990127'
+spring:
+  #服务名字，整合用
+  application:
+    name: mes-assemblyline
+  #环境
+  profiles:
+    active: dev
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+  fastjson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mes-coregister" />
+        <module name="mes-files-receive" />
+        <module name="mes-gateway" />
+        <module name="mes-verification" />
+        <module name="mes-login" />
+        <module name="mes-analysis" />
+        <module name="mes-order" />
+        <module name="mes-machinelogin" />
+        <module name="test-swagger" />
+        <module name="mes-assemblyline" />
+        <module name="common-utils" />
+        <module name="mes-alisms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.5" />
+      <module name="common-utils" target="1.5" />
+      <module name="mes-alisms" target="1.5" />
+      <module name="mes-analysis" target="1.5" />
+      <module name="mes-assemblyline" target="1.5" />
+      <module name="MES-Cloud-Platform-main" target="1.8" />
+      <module name="mes-coregister" target="1.5" />
+      <module name="mes-files-receive" target="1.5" />
+      <module name="mes-gateway" target="1.5" />
+      <module name="mes-login" target="1.5" />
+      <module name="mes-machinelogin" target="1.5" />
+      <module name="mes-order" target="1.5" />
+      <module name="mes-verification" target="1.5" />
+      <module name="test-swagger" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-utils" options="-parameters" />
+      <module name="mes-alisms" options="-parameters" />
+      <module name="mes-analysis" options="-parameters" />
+      <module name="mes-assemblyline" options="-parameters" />
+      <module name="mes-coregister" options="-parameters" />
+      <module name="mes-files-receive" options="-parameters" />
+      <module name="mes-gateway" options="-parameters" />
+      <module name="mes-login" options="-parameters" />
+      <module name="mes-machinelogin" options="-parameters" />
+      <module name="mes-order" options="-parameters" />
+      <module name="mes-verification" options="-parameters" />
+      <module name="test-swagger" options="-parameters" />
+    </option>
+  </component>
+</project>
