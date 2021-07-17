@@ -28,6 +28,15 @@ public class MqttPublisher {
 
 
     }
+    public static void publish(String order) throws Exception{
+
+        MQTT mqtt=new MQTT();
+        mqtt.setHost(MqttSubscriber.MQTT_SERVER_URL, 1883);
+        BlockingConnection connection = mqtt.blockingConnection();
+        connection.connect();
+        connection.publish("Java_Test", order.getBytes(), QoS.AT_LEAST_ONCE, true);
+
+    }
 
 }
 
