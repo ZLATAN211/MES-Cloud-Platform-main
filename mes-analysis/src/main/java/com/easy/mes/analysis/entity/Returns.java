@@ -1,5 +1,7 @@
 package com.easy.mes.analysis.entity;
 
+import lombok.Data;
+
 /**
  * @author zhaohan
  */

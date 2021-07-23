@@ -10,32 +10,32 @@
         <module name="mes-coregister" />
         <module name="mes-files-receive" />
         <module name="mes-gateway" />
+        <module name="mes-assemblyline" />
         <module name="mes-verification" />
         <module name="mes-login" />
-        <module name="mes-analysis" />
         <module name="mes-order" />
         <module name="mes-machinelogin" />
         <module name="test-swagger" />
-        <module name="mes-assemblyline" />
+        <module name="mes-analysis" />
         <module name="common-utils" />
         <module name="mes-alisms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common" target="1.5" />
-      <module name="common-utils" target="1.5" />
-      <module name="mes-alisms" target="1.5" />
-      <module name="mes-analysis" target="1.5" />
-      <module name="mes-assemblyline" target="1.5" />
+      <module name="common" target="1.8" />
+      <module name="common-utils" target="1.8" />
+      <module name="mes-alisms" target="1.8" />
+      <module name="mes-analysis" target="1.8" />
+      <module name="mes-assemblyline" target="1.8" />
       <module name="MES-Cloud-Platform-main" target="1.8" />
-      <module name="mes-coregister" target="1.5" />
-      <module name="mes-files-receive" target="1.5" />
-      <module name="mes-gateway" target="1.5" />
-      <module name="mes-login" target="1.5" />
-      <module name="mes-machinelogin" target="1.5" />
-      <module name="mes-order" target="1.5" />
-      <module name="mes-verification" target="1.5" />
-      <module name="test-swagger" target="1.5" />
+      <module name="mes-coregister" target="1.8" />
+      <module name="mes-files-receive" target="1.8" />
+      <module name="mes-gateway" target="1.8" />
+      <module name="mes-login" target="1.8" />
+      <module name="mes-machinelogin" target="1.8" />
+      <module name="mes-order" target="1.8" />
+      <module name="mes-verification" target="1.8" />
+      <module name="test-swagger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
